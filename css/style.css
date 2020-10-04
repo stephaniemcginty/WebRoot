@@ -3,35 +3,36 @@
   }
   
   body {
-    margin: 0;
+    border: solid;
+    border-color: grey;
+    padding: 0 15% 0 15%;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    text-align: center;
+  }
+/*
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: black;
+    font-size: 200%; 
+  }
   
-  .links {
-    height: 100%; 
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
+  .col-sm-4 {
+    margin: 0 auto;
   }
 
   .image {
       height: 50px;
       width: 50px;
-  }
-  
-  .sidenav {
-    padding: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: white;
-  }
-  
-  .content {
-    margin-left: 200px;
-    padding-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  } 
+/*
